@@ -1,0 +1,9 @@
+kind: Kustomization
+
+resources:
+- dbclaim-pvc.yaml
+- deployment-frontend.yaml
+- deployment.yaml
+- service-frontend.yaml
+- service.yaml
+
